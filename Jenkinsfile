@@ -1,6 +1,7 @@
 node("docker") {  
    
     stage('Build') { 
+       //git build
        git 'https://github.com/nilesh9593/StudentCoursesRestAPI.git'
     }
     stage('docker') {
